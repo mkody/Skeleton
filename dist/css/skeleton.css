@@ -68,7 +68,7 @@
   .six.columns                    { width: 48%;            }
   .seven.columns                  { width: 56.6666666667%; }
   .eight.columns                  { width: 65.3333333333%; }
-  .nine.columns                   { width: 74.0%;          }
+  .nine.columns                   { width: 74%;          }
   .ten.columns                    { width: 82.6666666667%; }
   .eleven.columns                 { width: 91.3333333333%; }
   .twelve.columns                 { width: 100%; margin-left: 0; }
@@ -96,7 +96,7 @@
   .offset-by-eight.column,
   .offset-by-eight.columns        { margin-left: 69.3333333333%; }
   .offset-by-nine.column,
-  .offset-by-nine.columns         { margin-left: 78.0%;          }
+  .offset-by-nine.columns         { margin-left: 78%;          }
   .offset-by-ten.column,
   .offset-by-ten.columns          { margin-left: 86.6666666667%; }
   .offset-by-eleven.column,
@@ -184,7 +184,7 @@ input[type="button"] {
   white-space: nowrap;
   background-color: transparent;
   border-radius: 4px;
-  border: 1px solid #bbb;
+  border: 1px solid #BBB;
   cursor: pointer;
   box-sizing: border-box; }
 .button:hover,
@@ -200,6 +200,11 @@ input[type="button"]:focus {
   color: #333;
   border-color: #888;
   outline: 0; }
+.button:disabled {
+  border: 1px solid #E3E3E3;
+  color: #888;
+  cursor: not-allowed;
+}
 .button.button-primary,
 button.button-primary,
 input[type="submit"].button-primary,
@@ -221,6 +226,15 @@ input[type="button"].button-primary:focus {
   color: #FFF;
   background-color: #1EAEDB;
   border-color: #1EAEDB; }
+.button.button-primary:disabled,
+button.button-primary:disabled,
+input[type="submit"].button-primary:disabled,
+input[type="reset"].button-primary:disabled,
+input[type="button"].button-primary:disabled {
+  color: #FFF;
+  cursor: not-allowed;
+  background-color: #7CD9F8;
+  border-color: #7CD9F8; }
 
 
 /* Forms
@@ -232,16 +246,20 @@ input[type="text"],
 input[type="tel"],
 input[type="url"],
 input[type="password"],
+input[type="date"],
+input[type="month"],
 textarea,
 select {
   height: 38px;
   padding: 6px 10px; /* The 6px vertically centers text on FF, ignored by Webkit */
-  background-color: #fff;
+  background-color: #FFF;
   border: 1px solid #D1D1D1;
   border-radius: 4px;
   box-shadow: none;
   box-sizing: border-box; }
 /* Removes awkward default styles on some inputs for iOS */
+input[type="button"],
+input[type="submit"],
 input[type="email"],
 input[type="number"],
 input[type="search"],
@@ -249,6 +267,8 @@ input[type="text"],
 input[type="tel"],
 input[type="url"],
 input[type="password"],
+input[type="date"],
+input[type="month"],
 textarea {
   -webkit-appearance: none;
      -moz-appearance: none;
@@ -264,6 +284,8 @@ input[type="text"]:focus,
 input[type="tel"]:focus,
 input[type="url"]:focus,
 input[type="password"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
 textarea:focus,
 select:focus {
   border: 1px solid #33C3F0;
@@ -317,11 +339,16 @@ code {
 pre > code {
   display: block;
   padding: 1rem 1.5rem;
-  white-space: pre; }
+  white-space: pre;
+  overflow: scroll}
 
 
 /* Tables
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+table {
+  display: block;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch; }
 th,
 td {
   padding: 12px 15px;
@@ -369,6 +396,12 @@ form {
   float: right; }
 .u-pull-left {
   float: left; }
+.t-left {
+  text-align: left; }
+.t-center {
+  text-align: center; }
+.t-right {
+  text-align: right; }
 
 
 /* Misc
@@ -386,7 +419,7 @@ hr {
 /* Self Clearing Goodness */
 .container:after,
 .row:after,
-.u-cf {
+.u-cf:after {
   content: "";
   display: table;
   clear: both; }
