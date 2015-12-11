@@ -1,13 +1,16 @@
 # [Skeleton](http://getskeleton.com)
 Skeleton is a simple, responsive boilerplate to kickstart any responsive project.
 
-Check out <http://getskeleton.com> for documentation and details.
+This is a fork with multiple *pull requests* merged.
+There's a list [on the releases page](https://github.com/mkody/Skeleton/releases).
+
+Check out <http://mkody.github.io/Skeleton/> for documentation and details.
 
 ## Getting started
 
 There are a couple ways to download Skeleton:
-- [Download the zip](https://github.com/dhg/Skeleton/releases/download/2.0.4/Skeleton-2.0.4.zip)
-- Clone the repo: `git clone https://github.com/dhg/Skeleton.git` (Note: this is under active development, so if you're looking for stable and safe, use the zipped download)
+- [Download the zip](https://github.com/mkody/Skeleton/archive/2.0.5.zip)
+- Clone the repo: `git clone https://github.com/mkody/Skeleton.git` (Note: this is under active development, so if you're looking for stable and safe, use the zipped download)
 
 
 ### What's in the download?
@@ -28,7 +31,7 @@ Skeleton/
 ### Why it's awesome
 
 Skeleton is lightweight and simple. It styles only raw HTML elements (with a few exceptions) and provides a responsive grid. Nothing more.
-- Around 400 lines of CSS unminified and with comments
+- Around 450 lines of CSS unminified and with comments
 - It's a starting point, not a UI framework
 - No compiling or installing...just vanilla CSS
 
@@ -47,7 +50,7 @@ The above list is non-exhaustive. Skeleton works perfectly with almost all older
 
 ## License
 
-All parts of Skeleton are free to use and abuse under the [open-source MIT license](https://github.com/dhg/Skeleton/blob/master/LICENSE.md).
+All parts of Skeleton are free to use and abuse under the [open-source MIT license](https://github.com/mkody/Skeleton/blob/PRs/LICENSE.md).
 
 
 ## Extensions

@@ -1,9 +1,9 @@
 {
   "name": "skeleton",
-  "homepage": "http://getskeleton.com/",
+  "homepage": "http://mkody.github.io/Skeleton/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/dhg/Skeleton"
+    "url": "https://github.com/mkody/Skeleton"
   },
   "authors": [
     "Dave Gamache <hello@davegamache.com> (http://davegamache.com/)"
