@@ -9,7 +9,8 @@ Check out <http://mkody.github.io/Skeleton/> for documentation and details.
 ## Getting started
 
 There are a couple ways to download Skeleton:
-- [Download the zip](https://github.com/mkody/Skeleton/archive/2.0.5.zip)
+- [Download the zip](https://github.com/mkody/Skeleton/archive/2.0.6.zip)
+- [Download the compressed css file](https://github.com/mkody/Skeleton/releases/download/2.0.6/skeleton.min.css)
 - Clone the repo: `git clone https://github.com/mkody/Skeleton.git` (Note: this is under active development, so if you're looking for stable and safe, use the zipped download)
 
 
