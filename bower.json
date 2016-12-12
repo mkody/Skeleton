@@ -16,5 +16,12 @@
     "responsive",
     "boilerplate"
   ],
+  "ignore": [
+    "*",
+    "!css/",
+    "!css/*",
+    "!images/",
+    "!images/*"
+  ],
   "license": "MIT"
 }
