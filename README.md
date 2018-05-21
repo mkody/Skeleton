@@ -9,8 +9,8 @@ Check out <https://mkody.github.io/Skeleton/> for documentation and details.
 ## Getting started
 
 There are a couple ways to download Skeleton:
-- [Download the zip](https://github.com/mkody/Skeleton/archive/2.0.6.zip)
-- [Download the compressed css file](https://github.com/mkody/Skeleton/releases/download/2.0.6/skeleton.min.css)
+- [Download the zip](https://github.com/mkody/Skeleton/archive/2.0.7.zip)
+- [Download the compressed css file](https://github.com/mkody/Skeleton/releases/download/2.0.7/skeleton.min.css)
 - Clone the repo: `git clone https://github.com/mkody/Skeleton.git` (Note: this is under active development, so if you're looking for stable and safe, use the zipped download)
 
 
@@ -22,7 +22,7 @@ The download includes Skeleton's CSS, Normalize CSS as a reset, a sample favicon
 Skeleton/
 ├── index.html
 ├── css/
-│   ├── normalize.min.css
+│   ├── normalize.css
 │   ├── skeleton-rtl.css
 │   └── skeleton.css
 └── images/
