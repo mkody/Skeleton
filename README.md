@@ -1,10 +1,10 @@
-# [Skeleton](http://getskeleton.com)
+# [Skeleton](https://mkody.github.io/Skeleton/)
 Skeleton is a simple, responsive boilerplate to kickstart any responsive project.
 
 This is a fork with multiple *pull requests* merged.
 There's a list [on the releases page](https://github.com/mkody/Skeleton/releases).
 
-Check out <http://mkody.github.io/Skeleton/> for documentation and details.
+Check out <https://mkody.github.io/Skeleton/> for documentation and details.
 
 ## Getting started
 
@@ -23,9 +23,10 @@ Skeleton/
 ├── index.html
 ├── css/
 │   ├── normalize.min.css
+│   ├── skeleton-rtl.css
 │   └── skeleton.css
 └── images/
-    └── favicon.ico
+    └── favicon.png
 
 ```
 
