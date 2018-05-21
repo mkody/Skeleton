@@ -421,15 +421,15 @@ form {
 
 /* Utilities
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.u-full-width {
+.util-full-width {
   width: 100%;
   box-sizing: border-box; }
-.u-max-full-width {
+.util-max-full-width {
   max-width: 100%;
   box-sizing: border-box; }
-.u-pull-right {
+.util-pull-right {
   float: right; }
-.u-pull-left {
+.util-pull-left {
   float: left; }
 .t-left {
   text-align: left; }
@@ -454,7 +454,7 @@ hr {
 /* Self Clearing Goodness */
 .container:after,
 .row:after,
-.u-cf:after {
+.util-cf:after {
   content: "";
   display: table;
   clear: both; }
